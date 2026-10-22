@@ -19,6 +19,7 @@ function love.update(dt)
     playerPosition.Y = playerPosition.Y - playerPosition.Speed * dt
   end
 
+  playerPosition.Y = playerPosition.Y + playerPosition.Speed * dt
   -- TODO: Add gravity
 end
 
